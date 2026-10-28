@@ -40,7 +40,7 @@ $$S_{11} = \frac{\Gamma(1 - P^2)}{1 - \Gamma^2 P^2}$$
 $$S_{21} = \frac{P(1 - \Gamma^2)}{1 - \Gamma^2 P^2}$$
 
 ---
-
+![Materials Composite Analysis](lab_materials_composite_analysis.png)
 ## Getting Started
 
 ### Prerequisites
