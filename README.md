@@ -53,7 +53,7 @@ pip install numpy matplotlib
 Run the primary tracking script to execute an X-band through Ku-band frequency sweep (8 GHz to 18 GHz) simulating a 6 mm structural fiberglass radome panel ($\varepsilon' = 4.5, \tan\delta = 0.02$).
 
 ```bash
-python radome_analysis.py
+python free_space_material_measurement.py
 ```
 
 The script automatically generates a unified composite analysis canvas (`lab_materials_composite_analysis.png`) displaying:
