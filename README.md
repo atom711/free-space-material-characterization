@@ -8,7 +8,7 @@ The main goal of this lab is to see how radar waves (specifically stepping throu
 
 * Making Radomes Transparent: If you are designing or testing a protective housing (a radome) for a radar unit, you want it to be practically invisible to the signal. If your material choice or thickness calculation is off, the radome acts like a mirror. It will bounce your own signal back into the receiver, distorting your data and masking real radar targets.
 
-* Trapping Radar Waves: On the flip side, if you are working with radar-absorbing coatings or stealth materials, you want the exact opposite. You want to tweak the material properties so its electrical impedance matches the air ($377\Omega$). That way, the radar wave enters the material without creating a front-face echo (SS\_{11}$ drops to zero), allowing the material’s internal losses to trap the energy and convert it to heat.
+* Trapping Radar Waves: On the flip side, if you are working with radar-absorbing coatings or stealth materials, you want the exact opposite. You want to tweak the material properties so its electrical impedance matches the air ($377\Omega$). That way, the radar wave enters the material without creating a front-face echo ($S\_{11}$ drops to zero), allowing the material’s internal losses to trap the energy and convert it to heat.
 
 ## Engineering Core Principles
 
