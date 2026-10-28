@@ -24,7 +24,7 @@ Real-world structural dielectrics exhibit internal polarization losses. By treat
 ### 2. Intrinsic Impedance Mismatch
 At the boundary interface, a discrete reflection coefficient ($\Gamma$) is established due to the sudden jump in intrinsic wave impedance between free space ($Z_0 \approx 377\,\Omega$) and the lossy bulk medium ($Z_{\text{material}}$):
 
-$$\Gamma = \frac{Z_{material} - Z_0}{Z_{material} + Z_0} = \frac{\sqrt{\frac{\mu_0\mu^*}{\vap_0\varepsilon^*}} - Z_0}{\sqrt{\frac{\mu_0\mu^*}{\varepsilon_0\varepsilon^*}} + Z_0}$$
+$$\Gamma = \frac{Z_{material} - Z_0}{Z_{material} + Z_0} = \frac{\sqrt{\frac{\mu_0\mu^\*}{\varepsilon_0\varepsilon^\*}} - Z_0}{\sqrt{\frac{\mu_0\mu^\*}{\varepsilon_0\varepsilon^\*}} + Z_0}$$
 
 ### 3. Infinite Internal Boundary Tracking via Euler's Factor
 Once energy penetrates the front face, it doesn't execute a single clean pass. It strikes the rear air boundary, reflects backward, hits the front inner boundary, and establishes an infinite internal echo matrix. 
