@@ -41,6 +41,10 @@ $$S_{21} = \frac{P(1 - \Gamma^2)}{1 - \Gamma^2 P^2}$$
 
 ---
 ![Materials Composite Analysis](lab_materials_composite_analysis.png)
+
+* Looking at the red reflection line ($S\_{11}$), there is a massive drop-out right around 11.8 GHz, where reflections hit a floor of-32 dB. At that same point, the blue transmission line ($S\_{21}$) sits right at 0 dB, meaning the wave is slipping through the fiberglass completely unobstructed. If you were deploying this specific 6 mm material as an actual aircraft radome, 11.8 GHz is your target operating frequency.
+* The polar trace shows what the complex $S\_{11}$ vector is doing as the frequency ramps up. Instead of a single static point, it sweeps out a clean clockwise spiral arc. The rotation is simply the phase changing as the wave handles the electrical thickness of the panel. Also, notice that the trace stays pulled well inward from the outer 1.0 boundary circle—this is visual proof of our 0.02 loss tangent at work, showing the material is soaking up a bit of RF power as heat.
+
 ## Getting Started
 
 ### Prerequisites
