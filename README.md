@@ -41,14 +41,6 @@ $$S_{21} = \frac{P(1 - \Gamma^2)}{1 - \Gamma^2 P^2}$$
 
 ---
 
-## Repository Structure
-
-* `radome_analysis.py`: Main analytical loop script utilizing NumPy and Matplotlib.
-* `schematics_graphs/`: Automated output directory for high-resolution measurement plots.
-* `README.md`: System physics documentation and mathematical foundation.
-
----
-
 ## Getting Started
 
 ### Prerequisites
